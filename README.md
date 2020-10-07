@@ -1,5 +1,5 @@
-MyHDL 1.0dev 
-============
+MyHDL 0.10 
+==========
 
 [![Join the chat at https://gitter.im/jandecaluwe/myhdl](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/myhdl/myhdl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -34,7 +34,7 @@ What's new
 ----------
 To find out what's new in this release, please read:
 
-   - http://docs.myhdl.org/en/stable/whatsnew/0.9.html
+   - http://docs.myhdl.org/en/stable/whatsnew/0.10.html
 
 Installation
 ------------

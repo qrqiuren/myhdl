@@ -34,8 +34,5 @@ work_vcom/
 myhdl/**/*.v
 myhdl/**/*.vhd
 
-# PyCharm
+# Pycharm ide junk
 .idea/
-
-# Dolphin (KDE file manager)
-.directory
