@@ -547,3 +547,20 @@ class intbv(object):
             return intbv(retVal, min=-M, max=M)
         else:
             return intbv(retVal)
+
+    def unsigned(self):
+        ''' Return new intbv with the values interpreted as unsigned
+        '''
+
+        # value is considered unsigned
+        if self.min is not None and self.min < 0 and self._nrbits:
+            mask = (1 << self._nrbits) - 1
+            retVal = self._val & mask
+
+        else:  # value is returned just as is
+            retVal = self._val
+
+        if self._nrbits:
+            return intbv(retVal)[self._nrbits:]
+        else:
+            return intbv(retVal)        
